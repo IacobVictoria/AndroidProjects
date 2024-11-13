@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">tema_2_android</string>
+    <string name="urbansafe">UrbanSafe</string>
+    <string name="sfaturi">Sfaturi</string>
+    <string name="experiente">Experiențe</string>
+    <string name="urbansafe_main_image">UrbanSafe main image</string>
+    <string name="urbansafe_este_ghidul_complet_pentru_a_naviga_provoc_rile_vie_ii_urbane_oferindu_i_sfaturi_practice_i_experien_e_autentice_de_la_utilizatori_care_au_trecut_prin_diverse_situa_ii_de_supravie_uire_urban_aplica_ia_i_permite_nu_doar_s_descoperi_tehnici_de_siguran_i_metode_de_adaptare_la_mediul_urban_dar_i_s_contribui_activ_po_i_ad_uga_sfaturi_care_te_au_ajutat_personal_i_s_mp_rt_e_ti_experien_e_pentru_a_sprijini_i_inspira_al_i_utilizatori">UrbanSafe este ghidul complet pentru a naviga provocările vieții urbane, oferindu-ți sfaturi practice și experiențe autentice de la utilizatori care au trecut prin diverse situații de supraviețuire urbană. Aplicația îți permite nu doar să descoperi tehnici de siguranță și metode de adaptare la mediul urban, dar și să contribui activ: poți adăuga sfaturi care te-au ajutat personal și să împărtășești experiențe pentru a sprijini și inspira alți utilizatori.</string>
+
+    //Iacob Victoria
+    <string name="emergency_contact_title">Contact de urgență  📞</string>
+    <string name="viewPager_go_back">Go back</string>
+    <string name="image_description">Image Description</string>
+
+    <string name="expand_list_precautions_label">Precautions: %1$s</string>
+    <string name="expand_list_urgency_label">Urgency Level: %1$d</string>
+
+    <string-array name="emergency_contacts">
+        <item>112 - Urgențe</item>
+        <item>114 - Persoane cu dizabilități</item>
+    </string-array>
+
+    <string-array name="viewPager_titles">
+        <item>Prim Ajutor</item>
+        <item>Cutremur</item>
+        <item>Incendiu</item>
+        <item>Inundatie</item>
+        <item>Prim Ajutor-Înec</item>
+    </string-array>
+
+    <string-array name="viewPager_descriptions">
+        <item>Sfaturi de prim ajutor pentru situații urbane. Fii răbdător nu intra în panică! Fii calm!</item>
+        <item>Cum să te pregătești pentru dezastre naturale în oraș.</item>
+        <item>Sfaturi pentru siguranță în caz de incendiu.</item>
+        <item>Cum să te protejezi în caz de inundație.</item>
+        <item>Cum să intervii atunci când cineva se îneacă.</item>
+    </string-array>
+
+    <string-array name="viewPager_urgency_levels">
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>6</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="viewPager_precautions_first_aid">
+        <item>Verifică pulsul</item>
+        <item>Oprește sângerarea</item>
+        <item>Sunați la serviciile de urgență</item>
+    </string-array>
+
+    <string-array name="viewPager_precautions_disaster">
+        <item>Furnizează provizii de urgență</item>
+        <item>Identifică zone sigure</item>
+        <item>Exersează evacuarea</item>
+    </string-array>
+
+    <string-array name="viewPager_precautions_fire">
+        <item>Sună la 112</item>
+        <item>Părăsește clădirea calm</item>
+        <item>Nu folosi liftul</item>
+    </string-array>
+
+    <string-array name="viewPager_precautions_flood">
+        <item>Păstrează provizii esențiale</item>
+        <item>Mută obiectele valoroase la etajele superioare</item>
+        <item>Urmează instrucțiunile autorităților</item>
+    </string-array>
+
+    <string-array name="viewPager_precautions_choking">
+        <item>Aplica manevra Heimlich</item>
+        <item>Împinge în sus și în spate</item>
+        <item>Cere ajutor dacă nu funcționează</item>
+    </string-array>
+
+    //Guia Diana
+
+    <string name="form_titlu">Titlu</string>
+    <string name="form_descriere">Descriere</string>
+    <string name="form_categorie">Categorie</string>
+    <string name="form_save">Save</string>
+    <string name="form_nivel_de_urgenta">Nivel de Urgență (de la Scăzut la Critic)</string>
+    <string name="form_masuri_de_precautie">Masuri de precauție</string>
+    <string name="form_lanterna">Lanternă</string>
+    <string name="form_trusa_de_prim_ajutor">Trusă de prim ajutor</string>
+    <string name="form_apa">Apă</string>
+    <string name="form_provizii_mancare">Provizii mâncare</string>
+    <string name="form_radio">Radio</string>
+    <string name="denumire_formular_sfaturi_generale">Formular sfaturi generale</string>
+    <string name="form_altele">Altele</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string-array name="form_categorie">
+        <item>Tip Risc</item>
+        <item>Prim ajutor</item>
+    </string-array>
+
+    <string name="balint_franceska_name_1">Alex Pop</string>
+    <string name="balint_franceska_name_2">Maria Ionescu</string>
+    <string name="balint_franceska_name_3">Ana Popa</string>
+    <string name="balint_franceska_storm">Furtuna</string>
+    <string name="balint_franceska_earthquake">Cutremur</string>
+    <string name="balint_franceska_fire">Incendiu</string>
+    <string name="balint_franceska_fire_description">"Am fost prins într-un incendiu care a distrus o parte dintr-o clădire. Fumul dens și căldura intensă m-au împins să caut o ieșire rapidă, iar instinctul de supraviețuire m-a ajutat să rămân calm și să mă concentrez pe evacuare. Am învățat că este esențial să cunoști rutele de evacuare, să nu te panichezi și să folosești ceva umed pentru a-ți proteja căile respiratorii, dacă este necesar. "</string>
+    <string name="balint_franceska_storm_description">Ieri m-a prins o furtună.. Eram pe stradă când cerul s-a întunecat brusc, și în câteva minute a început să plouă torențial. M-am dus repede într-o cafenea din apropiere, unde am așteptat să treacă. Când te prinde o furtună, cel mai important lucru este să cauți un loc sigur cât mai repede. Așa că, dacă vezi semnele unei furtuni, nu ezita să găsești un adăpost; nu merită să riști.</string>
+    <string name="balint_franceska_earthquake_description">Am fost trezit brusc de un cutremur care a zguduit întreaga clădire. Am simțit cum podeaua se clatină sub mine, iar obiectele din jur au început să cadă. Instinctiv, m-am adăpostit sub birou, am închis ochii și am așteptat să treacă. Acea experiență m-a învățat importanța pregătirii: să ai un plan de evacuare, să știi cum să te protejezi și să ai un kit de urgență la îndemână, cu apă, alimente neperisabile, radio.</string>
+    <string name="balint_franceska_home_damage">locuinta</string>
+    <string name="balint_franceska_car_damage">masina</string>
+    <string name="balint_franceska_another_damage">altele</string>
+    <string name="hrehorciuc_mara_add_experience_complete">Completati casutele de mai jos pentru a va impartasi experienta cu alti utilizatori:</string>
+    <string name="hrehorciuc_mara_add_experience_name">Nume</string>
+    <string name="hrehorciuc_mara_add_experience_disaster_type">Tip dezastru</string>
+    <string name="hrehorciuc_mara_add_experience_description">Descriere</string>
+    <string name="hrehorciuc_mara_add_experience_loss_type">Ce tip de daune ati suferit?</string>
+    <string name="hrehorciuc_mara_add_experience_home_loss">la nivel de locuinta</string>
+    <string name="hrehorciuc_mara_add_experience_car_loss">la nivel de masina</string>
+    <string name="hrehorciuc_mara_add_experience_loss_level">Care a fost nivelul daunelor suferite?</string>
+    <string name="hrehorciuc_mara_add_experience_minor_loss">mici</string>
+    <string name="hrehorciuc_mara_add_experience_mediocre_loss">medii</string>
+    <string name="hrehorciuc_mara_add_experience_severe_loss">severe</string>
+    <string name="hrehorciuc_mara_add_experience_effect">Cat de afectat emotional ati fost de eveniment?</string>
+    <string name="hrehorciuc_mara_add_experience_gentle">usor</string>
+    <string name="hrehorciuc_mara_add_experience_moderate">moderat</string>
+    <string name="hrehorciuc_mara_add_experience_severe">sever</string>
+    <string name="hrehorciuc_mara_add_experience_prepared">Cat de pregatit v-ati simtit de acest dezastru?</string>
+    <string name="hrehorciuc_mara_add_experience_save">Trimite</string>
+    <string name="hrehorciuc_mara_add_experience_invalid_name">Numele este invalid. Acesta trebuie sa aiba cel putin 3 caractere</string>
+    <string name="hrehorciuc_mara_add_experience_invalid_description">Descrierea este invalida. Aceasta trebuie sa aiba cel putin 10 caractere</string>
+    <string name="hrehorciuc_mara_impartasiti_experienta">Completati casutele de mai jos pentru a va impartasi experienta cu alti utilizatori:</string>
+    <string name="hrehorciuc_mara_ce_tip_de_daune_ati_suferit">Ce tip de daune ati suferit?</string>
+    <string name="hrehorciuc_mara_la_nivel_de_locuinta">la nivel de locuinta</string>
+    <string name="hrehorciuc_mara_la_nivel_de_autovehicul">la nivel de autovehicul</string>
+    <string name="hrehorciuc_mara_altele">altele</string>
+    <string name="hrehorciuc_mara_nivelul_daunelor_suferite">Care a fost nivelul daunelor suferite?</string>
+    <string name="hrehorciuc_mara_trimite">Trimite</string>
+    <string name="hrehorciuc_mara_pregatit_de_acest_dezastru">Cat de pregatit v-ati simtit de acest dezastru?</string>
+    <string name="hrehorciuc_mara_sever">sever</string>
+    <string name="hrehorciuc_mara_moderat">moderat</string>
+    <string name="hrehorciuc_mara_usor">usor</string>
+    <string name="hrehorciuc_mara_afectat_emotional_de_eveniment">Cat de afectat emotional ati fost de eveniment?</string>
+    <string name="hrehorciuc_mara_mari">mari</string>
+    <string name="hrehorciuc_mara_medii">medii</string>
+    <string name="hrehorciuc_mara_mici">mici</string>
+    <string name="balint_franceska_experientele_utilizatorilor">Experientele utilizatorilor</string>
+    <string name="balint_franceska_adauga_o_postare">Adauga o postare</string>
+    <string name="balint_franceska_nivelul_daunelor_emotionale">Nivelul daunelor emotionale: USOR</string>
+    <string name="balint_franceska_nivelul_daunelor_suferite">Nivelul daunelor suferite: MIC</string>
+    <string name="balint_franceska_daune_x_y">Daune: X, Y</string>
+    <string name="balint_franceska_descrierea_dezastrului">Descrierea dezastrului</string>
+    <string name="balint_franceska_vezi_povestea">Vezi povestea publicata de X</string>
+    <string name="balint_franceska_titlu">Titlu</string>
+    <string name="hrehorciuc_mara_descriere">Descriere</string>
+    <string name="hrehorciuc_mara_nume">Nume</string>
+    <string name="hrehorciuc_mara_tip_dezastru">Tip dezastru</string>
+    <string name="balint_franceska_nivel_pregatire">Nivel pregatire: X</string>
+    <string name="balint_franceska_poza_cu_problema_intampinata">Poza cu problema intampinata</string>
+    <string name="balint_franceska_go_back">Go back</string>
+    <string-array name="hrehorciuc_mara_add_experience_disaster_types">
+        <item>Cutremur</item>
+        <item>Incendiu</item>
+        <item>Furtuna</item>
+    </string-array>
+    <string-array name="hrehorciuc_mara_add_experience_preparations">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

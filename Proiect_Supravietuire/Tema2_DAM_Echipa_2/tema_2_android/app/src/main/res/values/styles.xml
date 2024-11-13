@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="primaryColor">#2C3E3A</color>
+    <color name="backgroundColor">#143E38</color>
+    <color name="buttonColor">#F5D8A3</color>
+    <color name="textColorPrimary">#FFFCEB</color>
+    <color name="titleColor">#F3D091</color>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColor</item>
+        <item name="colorAccent">@color/buttonColor</item>
+        <item name="android:background">@color/backgroundColor</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="buttonStyle">@style/ButtonStyle</item>
+        <item name="android:justificationMode" tools:targetApi="o">inter_word</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="TitleTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="SearchBarStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:background">#c6b599</item>
+        <item name="android:textColorHint">@color/primaryColor</item>
+    </style>
+
+    <style name="CardTextStyle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">50</item>
+    </style>
+</resources>

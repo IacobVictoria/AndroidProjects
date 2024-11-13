@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/balint_franceska_experience_post_ibtn_back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/balint_franceska_go_back"
+        android:src="@drawable/arrow_left"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/balint_franceska_experience_post_tv_experiente"/>
+
+    <TextView
+        android:id="@+id/balint_franceska_experience_post_tv_experiente"
+        style="@style/TitleTextStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/balint_franceska_experience_post_ibtn_back"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:text="@string/balint_franceska_experientele_utilizatorilor"
+        android:textSize="26sp">
+    </TextView>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/balint_franceska_experience_post_sv_filter"
+        style="@style/SearchBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/balint_franceska_experience_post_tv_experiente"
+        android:outlineSpotShadowColor="#c6b599"
+        android:layout_margin="16dp"
+        android:queryHint="Search"
+        android:iconifiedByDefault="false"
+        android:elevation="5dp">
+    </androidx.appcompat.widget.SearchView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/balint_franceska_experience_post_rv_posts"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/balint_franceska_experience_post_sv_filter"
+        app:layout_constraintBottom_toTopOf="@+id/balint_franceska_experience_post_btn_add">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/balint_franceska_experience_post_btn_add"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/balint_franceska_adauga_o_postare">
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

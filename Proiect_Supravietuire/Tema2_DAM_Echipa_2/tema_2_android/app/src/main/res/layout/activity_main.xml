@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bululete_bianca_main_iv"
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:contentDescription="@string/urbansafe_main_image"
+        android:src="@drawable/poza1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/bululete_bianca_main_view_blur"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#A0000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/bululete_bianca_main_iv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/bululete_bianca_main_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/urbansafe"
+        style="@style/TitleTextStyle"
+        app:layout_constraintTop_toBottomOf="@id/bululete_bianca_main_iv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/bululete_bianca_main_tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/urbansafe_este_ghidul_complet_pentru_a_naviga_provoc_rile_vie_ii_urbane_oferindu_i_sfaturi_practice_i_experien_e_autentice_de_la_utilizatori_care_au_trecut_prin_diverse_situa_ii_de_supravie_uire_urban_aplica_ia_i_permite_nu_doar_s_descoperi_tehnici_de_siguran_i_metode_de_adaptare_la_mediul_urban_dar_i_s_contribui_activ_po_i_ad_uga_sfaturi_care_te_au_ajutat_personal_i_s_mp_rt_e_ti_experien_e_pentru_a_sprijini_i_inspira_al_i_utilizatori"
+        app:layout_constraintTop_toBottomOf="@id/bululete_bianca_main_tv_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/bululete_bianca_main_btn_tips"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sfaturi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/bululete_bianca_main_btn_experiences"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="16dp" />
+
+    <Button
+        android:id="@+id/bululete_bianca_main_btn_experiences"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/experiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/bululete_bianca_main_btn_tips"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="30dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/balint_franceska_experience_post_cv_post"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="86dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/balint_franceska_experience_post_iv_background"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/storm"
+                android:contentDescription="@string/balint_franceska_poza_cu_problema_intampinata">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/balint_franceska_experience_post_tv_title"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                style="@style/CardTextStyle"
+                android:background="@null"
+                android:text="@string/balint_franceska_titlu"
+                android:textSize="32sp"
+                app:layout_constraintBottom_toBottomOf="@id/balint_franceska_experience_post_iv_background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/balint_franceska_experience_post_iv_background"
+                app:layout_constraintVertical_bias="0.80">
+            </TextView>
+
+            <TextView
+                android:id="@+id/balint_franceska_experience_post_tv_user"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/balint_franceska_vezi_povestea"
+                android:background="@null"
+                style="@style/CardTextStyle"
+                app:layout_constraintBottom_toBottomOf="@id/balint_franceska_experience_post_iv_background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/balint_franceska_experience_post_tv_title"
+                app:layout_constraintVertical_bias="0.2">
+            </TextView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/balint_franceska_experience_post_cl_extended"
+
+                app:layout_constraintTop_toBottomOf="@id/balint_franceska_experience_post_iv_background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="20dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/balint_franceska_experience_post_tv_description"
+
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/balint_franceska_descrierea_dezastrului"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/balint_franceska_experience_post_tv_damage"
+
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/balint_franceska_daune_x_y"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/balint_franceska_experience_post_tv_description">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/balint_franceska_experience_post_tv_damage_level"
+
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/balint_franceska_nivelul_daunelor_suferite"
+                    app:layout_constraintEnd_toEndOf="parent"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/balint_franceska_experience_post_tv_damage">
+                </TextView>
+                <TextView
+                    android:id="@+id/balint_franceska_experience_post_tv_emotional_damage"
+
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/balint_franceska_nivelul_daunelor_emotionale"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/balint_franceska_experience_post_tv_damage_level">
+                </TextView>
+                <TextView
+                    android:id="@+id/balint_franceska_experience_post_tv_prepared"
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/balint_franceska_nivel_pregatire"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/balint_franceska_experience_post_tv_emotional_damage">
+                </TextView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

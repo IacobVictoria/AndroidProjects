@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddSurvivalGuideActivity">
+    <TextView
+        android:id="@+id/guia_diana_denumire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/denumire_formular_sfaturi_generale"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/guia_diana_categorie_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/form_categorie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guia_diana_denumire" />
+
+    <Spinner
+        android:id="@+id/guia_diana_categorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp"
+        android:entries="@array/form_categorie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guia_diana_categorie_tv" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/guia_diana_titlu_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guia_diana_categorie"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/guia_diana_titlu"
+            android:hint="@string/form_titlu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/guia_diana_descriere_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guia_diana_titlu_layout"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/guia_diana_descriere"
+            android:hint="@string/form_descriere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/guia_diana_masuri_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/form_masuri_de_precautie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guia_diana_descriere_layout" />
+
+    <LinearLayout
+        android:id="@+id/guia_diana_precautii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guia_diana_masuri_tv">
+
+        <CheckBox
+            android:id="@+id/guia_diana_lanterna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/form_lanterna"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/guia_diana_trusa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_trusa_de_prim_ajutor"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/guia_diana_apa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_apa"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/guia_diana_provizii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_provizii_mancare"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/guia_diana_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_radio"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/guia_diana_altele"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_altele"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/guia_diana_tv_nivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/form_nivel_de_urgenta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guia_diana_precautii" />
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/guia_diana_slider"
+
+        android:valueFrom="1"
+        android:valueTo="5"
+        android:stepSize ="1"
+        android:contentDescription="@string/form_nivel_de_urgenta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guia_diana_tv_nivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.slider.RangeSlider>
+
+    <LinearLayout
+        android:id="@+id/guia_diana_butoane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="0dp">
+
+        <Button
+            android:id="@+id/guia_diana_btnSave"
+            android:text="@string/form_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"/>
+
+        <Button
+            android:id="@+id/guia_diana_btnCancel"
+            android:text="@string/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
