@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Quiz Game</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_start_quiz">Start Quiz</string>
+    <string name="quiz_intrebare">Intrebare</string>
+    <string name="finish_quiz">Finish Quiz</string>
+    <string name="end_text">Acesta este sfârșitul testului! Dacă ești sigur de toate răspunsurile tale, apasă butonul de terminare!</string>
+    <string name="text_start_quiz">Acesta este un quiz despre arta miniaturală, o formă de artă detaliată și complexă, apreciată de-a lungul istoriei.</string>
+    <string name="text_rules_quiz">Testul conține 14 întrebări despre tehnici, materiale și istoria artei miniaturale.</string>
+    <string name="start_alt_image">Alt image</string>
+    <string name="swipe_to_start">Swipe to start the test!</string>
+    <string name="alt_arrow">Alt arrow</string>
+    <string name="alt_main_add_button">Add button</string>
+    <string name="final_score_text">Score final: %1$d</string>
+    <string name="final_answers_quiz"> %1$d raspunsuri corecte %2$d total intrebari!</string>
+    <string name="btn_back_to_home">Back to Home</string>
+    <string name="btn_restart_quiz">Restart Quiz</string>
+    <string name="default_score_text">Your Score: 0</string>
+    <string name="default_correct_answers_text">Correct Answers: 0</string>
+    <string name="quiz_completed">Quiz Completed!</string>
+    <string name="about_quiz">About Quiz</string>
+    <string name="about_quiz_info">Here there is quiz info...</string>
+    <string name="quiz_info_text">
+        În acest quiz, vei răspunde la 14 întrebări pentru a-ți testa cunoștințele.
+        Arta miniaturală este recunoscută pe plan mondial, fiind apreciată pentru detaliile sale impresionante și pentru măiestria unică.
+    </string>
+    <string name="review_the_quiz">Review the quiz</string>
+    <string name="review_text">Astept un feedback din partea ta!</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="submit_feedback">Submit feedback</string>
+    <string name="enter_your_feedback_here">Enter your feedback here</string>
+    <string name="give_feedback">Give us a feedback</string>
+    <string name="reviews_title">Reviews from users!</string>
+    <string name="default_date">01/01/2023</string>
+    <string name="feedback_utilizatorului">Feedback-ul utilizatorului</string>
+    <string name="nume_prenume_label">Nume Prenume</string>
+    <string name="quiz_app">QUIZ APP</string>
+    <string name="quiz_header">Quiz - Miniaturi și artă miniaturală</string>
+    <string name="quiz_nou">Quiz nou!</string>
+    <string name="todo">TODO</string>
+    <string name="feedback_not_valid">Feedback not valid</string>
+    <string name="last_name_not_valid">Last name not valid</string>
+    <string name="first_name_not_valid">First name not valid</string>
+    <string-array name="first_names">
+        <item>Maria</item>
+        <item>Andrei</item>
+        <item>Elena</item>
+    </string-array>
+
+    <string-array name="last_names">
+        <item>Popescu</item>
+        <item>Ionescu</item>
+        <item>Georgescu</item>
+    </string-array>
+
+    <string-array name="feedback_content">
+        <item>Excelent! Foarte interesant și educativ.</item>
+        <item>Mi-a plăcut mult, dar ar putea fi mai interactiv.</item>
+        <item>O experiență bună, am învățat lucruri noi.</item>
+    </string-array>
+
+    <string-array name="ratings">
+        <item>5.0</item>
+        <item>4.5</item>
+        <item>4.0</item>
+    </string-array>
+
+    <string-array name="review_dates">
+        <item>Thu Oct 12 00:00:00 GMT+02:00 2023</item>
+        <item>Mon Sep 15 00:00:00 GMT+02:00 2023</item>
+        <item>Sun Nov 03 00:00:00 GMT+02:00 2023</item>
+    </string-array>
+
+</resources>

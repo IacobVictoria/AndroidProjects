@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/iacob_maria_victoria_nav_about"
+            android:icon="@drawable/questionary"
+            android:title="@string/about_quiz" />
+        <item
+            android:id="@+id/iacob_maria_victoria_nav_home"
+            android:icon="@drawable/questions"
+            android:title="@string/menu_start_quiz" />
+
+        <item
+            android:id="@+id/iacob_maria_victoria_nav_review"
+            android:icon="@drawable/review"
+            android:iconTint="@null"
+            android:title="@string/review_the_quiz" />
+    </group>
+</menu>

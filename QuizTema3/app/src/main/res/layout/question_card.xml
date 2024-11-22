@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    style="@style/LinearLayoutStyle">
+
+    <TextView
+        android:id="@+id/iacob_maria_victoria_tv_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="@string/quiz_intrebare"
+        android:layout_marginTop="150dp"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/iacob_maria_victoria_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/iacob_maria_victoria_checkbox_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <SeekBar
+        android:id="@+id/iacob_maria_victoria_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:visibility="gone" />
+
+    <DatePicker
+        android:id="@+id/iacob_maria_victoria_date_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <Switch
+        android:id="@+id/iacob_maria_victoria_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <RatingBar
+        android:id="@+id/iacob_maria_victoria_rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/iacob_maria_victoria_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

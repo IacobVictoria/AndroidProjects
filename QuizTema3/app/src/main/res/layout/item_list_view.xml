@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/iacob_maria_victoria_review_icon_name"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/start_alt_image"/>
+
+    <TextView
+        android:id="@+id/iacob_maria_victoria_review_text_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nume_prenume_label"
+        android:textColor="#000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/iacob_maria_victoria_review_icon_name"
+        app:layout_constraintTop_toTopOf="@id/iacob_maria_victoria_review_icon_name" />
+
+    <ImageView
+        android:id="@+id/iacob_maria_victoria_review_icon_feedback"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/feedback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iacob_maria_victoria_review_icon_name"
+        android:contentDescription="@string/start_alt_image"/>
+
+    <TextView
+        android:id="@+id/iacob_maria_victoria_review_text_feedback"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/feedback_utilizatorului"
+        android:textColor="#000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/iacob_maria_victoria_review_icon_feedback"
+        app:layout_constraintTop_toTopOf="@id/iacob_maria_victoria_review_icon_feedback" />
+
+
+    <ImageView
+        android:id="@+id/iacob_maria_victoria_review_icon_date"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/calendar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iacob_maria_victoria_review_icon_feedback"
+        android:contentDescription="@string/start_alt_image"/>
+
+
+    <TextView
+        android:id="@+id/iacob_maria_victoria_review_text_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/default_date"
+        android:textColor="#000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/iacob_maria_victoria_review_icon_date"
+        app:layout_constraintTop_toTopOf="@id/iacob_maria_victoria_review_icon_date" />
+
+    <RatingBar
+        android:id="@+id/iacob_maria_victoria_review_rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="3.5"
+        android:stepSize="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iacob_maria_victoria_review_icon_date" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
